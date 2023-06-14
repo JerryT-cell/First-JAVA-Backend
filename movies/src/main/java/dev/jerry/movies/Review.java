@@ -6,8 +6,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "reviews") //we have not created this collection yet but the application
-                                  //will create it for us
+@Document(collection = "reviews")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
